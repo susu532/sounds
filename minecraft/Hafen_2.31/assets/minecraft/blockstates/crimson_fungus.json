@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "": [
+		{"model": "block/crimson_fungi", "weight": 100},
+		{"model": "block/crimson_fungi_1", "weight": 100},
+		{"model": "block/crimson_fungi_2", "weight": 100},
+		{"model": "block/crimson_fungi_3", "weight": 100},
+		{"model": "block/crimson_fungi_4", "weight": 100}
+		]
+    }
+}

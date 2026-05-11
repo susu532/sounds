@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"particle": "block/iron_bars_model",
+		"iron_bars": "block/iron_bars_model"
+	},
+	"elements": [
+		{
+			"name": "Box3",
+			"from": [7, 1, 7],
+			"to": [9, 15, 9],
+			"faces": {
+				"north": {"uv": [4, 1, 5, 15], "texture": "#iron_bars"},
+				"east": {"uv": [6, 1, 4, 15], "texture": "#iron_bars"},
+				"south": {"uv": [6, 15, 5, 1], "rotation": 180, "texture": "#iron_bars"},
+				"west": {"uv": [4, 1, 6, 15], "texture": "#iron_bars"},
+				"up": {"uv": [4, 2, 6, 1], "rotation": 90, "texture": "#iron_bars"},
+				"down": {"uv": [4, 14, 6, 15], "rotation": 270, "texture": "#iron_bars"}
+			}
+		},
+		{
+			"name": "Box4",
+			"from": [7, 15, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"north": {"uv": [4, 14, 6, 15], "texture": "#iron_bars"},
+				"east": {"uv": [6, 14, 4, 15], "texture": "#iron_bars"},
+				"south": {"uv": [6, 15, 4, 14], "rotation": 180, "texture": "#iron_bars"},
+				"west": {"uv": [4, 14, 6, 15], "texture": "#iron_bars"},
+				"up": {"uv": [4, 2, 6, 1], "rotation": 90, "texture": "#iron_bars"},
+				"down": {"uv": [4, 15, 6, 16], "rotation": 270, "texture": "#iron_bars"}
+			}
+		},
+		{
+			"name": "Box4",
+			"from": [7, 0, 7],
+			"to": [9, 1, 9],
+			"faces": {
+				"north": {"uv": [4, 14, 6, 15], "texture": "#iron_bars"},
+				"east": {"uv": [6, 14, 4, 15], "texture": "#iron_bars"},
+				"south": {"uv": [6, 15, 4, 14], "rotation": 180, "texture": "#iron_bars"},
+				"west": {"uv": [4, 14, 6, 15], "texture": "#iron_bars"},
+				"up": {"uv": [4, 2, 6, 1], "rotation": 90, "texture": "#iron_bars"},
+				"down": {"uv": [4, 14, 6, 15], "rotation": 270, "texture": "#iron_bars"}
+			}
+		}
+	]
+}

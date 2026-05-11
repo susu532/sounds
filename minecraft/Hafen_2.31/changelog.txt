@@ -1,0 +1,11 @@
+- added crafter UI
+- added nautilus
+- added baby nautilus
+- added zombie nautilus
+- added coral-ridden zombie nautilus
+- added nautilus UI
+- restored UI container icons
+- added nautilus armor
+- added spear
+- added netherite horse armor
+- updated some missing and broken entities

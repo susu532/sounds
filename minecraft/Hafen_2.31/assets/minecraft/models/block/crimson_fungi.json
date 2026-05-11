@@ -1,0 +1,33 @@
+{
+	"textures": {
+		"particle": "block/crimson_fungi",
+		"texture": "block/crimson_fungi"
+	},
+	"elements": [ 	 
+		{
+			"__comment": "Box3",
+			"from": [ 6, 1.5, 6 ],
+			"to": [ 10, 3.5, 10 ],
+			"faces": {
+				"down": { "uv": [ 0, 1, 1, 2 ], "texture": "#texture" },
+				"up": { "uv": [ 12, 9, 16, 13 ], "texture": "#texture" },
+				"north": { "uv": [ 16, 10, 12, 9 ], "texture": "#texture" },
+				"south": { "uv": [ 12, 12, 16, 13 ], "texture": "#texture" },
+				"west": { "uv": [ 12, 9, 13, 13 ], "texture": "#texture", "rotation": 270 },
+				"east": { "uv": [ 16, 9, 15, 13 ], "texture": "#texture", "rotation": 90 }
+			}
+		},
+		{
+			"__comment": "Box1",
+			"from": [ 7.25, 0, 7.25 ],
+			"to": [ 8.75, 1.5, 8.75 ],
+			"faces": {
+				"down": { "uv": [ 0, 1, 1, 0 ], "texture": "#texture", "cullface": "down" },
+				"north": { "uv": [ 1, 1, 0, 0 ], "texture": "#texture" },
+				"south": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture" },
+				"west": { "uv": [ 0, 0, 1, 1 ], "texture": "#texture", "rotation": 270 },
+				"east": { "uv": [ 1, 0, 0, 1 ], "texture": "#texture", "rotation": 90 }
+			}
+		}
+	]
+}

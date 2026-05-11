@@ -1,0 +1,9 @@
+{
+    "pack": {
+        "description": "\u00A7aHafen",
+		"supported_formats":[63,64],
+        "pack_format": 63,
+		"min_format": 63,
+		"max_format": 70
+    }
+}

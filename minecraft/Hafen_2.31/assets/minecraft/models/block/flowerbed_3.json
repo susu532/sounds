@@ -1,0 +1,35 @@
+{
+	"format_version": "1.21.6",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "#flowerbed"
+	},
+	"elements": [
+		{
+			"from": [8, 2, 8],
+			"to": [16, 2, 16],
+			"faces": {
+				"up": {"uv": [8, 8, 16, 16], "texture": "#flowerbed"},
+				"down": {"uv": [8, 16, 16, 8], "texture": "#flowerbed"}
+			}
+		},
+		{
+			"from": [15.4, 0, 1.5],
+			"to": [15.4, 2, 2.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"east": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1},
+				"west": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1}
+			}
+		},
+		{
+			"from": [14.9, 0, 2],
+			"to": [15.9, 2, 2],
+			"rotation": {"angle": -45, "axis": "y", "origin": [2, 0, 2]},
+			"faces": {
+				"north": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1},
+				"south": {"uv": [0, 5, 1, 7], "texture": "#stem", "tintindex": 1}
+			}
+		}
+	]
+}

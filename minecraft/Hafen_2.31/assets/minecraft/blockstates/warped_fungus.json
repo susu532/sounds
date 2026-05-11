@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "": [
+		{"model": "block/warped_fungi", "weight": 100},
+		{"model": "block/warped_fungi_1", "weight": 100},
+		{"model": "block/warped_fungi_2", "weight": 100},
+		{"model": "block/warped_fungi_3", "weight": 100},
+		{"model": "block/warped_fungi_4", "weight": 100}
+		]
+    }
+}
